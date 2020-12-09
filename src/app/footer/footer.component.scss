@@ -1,0 +1,19 @@
+:host {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.web  {
+  width: 80%;
+  .footer {
+   width: 100%;
+  }
+}
+
+.mobile {
+  width: 100%;
+  .footer {
+    width: 100%; 
+  }
+}
