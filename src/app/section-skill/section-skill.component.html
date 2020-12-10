@@ -13,6 +13,9 @@
         [labels]="doughnutChartLabels1"
         [chartType]="doughnutChartType">
       </canvas>
+      <div  class="chart-for">
+        Framework
+      </div>
     </div>
 
     <div  class="charts">
@@ -21,7 +24,21 @@
         [labels]="doughnutChartLabels2"
         [chartType]="doughnutChartType">
       </canvas>
-    </div>  
+      <div  class="chart-for">
+        Language
+      </div>
+    </div>
+    
+    <div  class="charts">
+      <canvas baseChart 
+        [data]="doughnutChartData3"
+        [labels]="doughnutChartLabels3"
+        [chartType]="doughnutChartType">
+      </canvas>
+      <div  class="chart-for">
+        Concepts/Tools
+      </div>
+    </div>
 
   </div>
 

@@ -12,8 +12,11 @@ export class SectionSkillComponent implements OnInit {
   public doughnutChartLabels1: Label[] = ['Angular', 'React/Redux', 'Node/Express'];
   public doughnutChartData1: MultiDataSet = [[ 80, 25, 50]]
 
-  public doughnutChartLabels2: Label[] = [ 'Javascript/Typescript','C++', 'OOPs'];
-  public doughnutChartData2: MultiDataSet = [[90, 50, 80]]
+  public doughnutChartLabels2: Label[] = [ 'Javascript/Typescript','C++', 'SQL'];
+  public doughnutChartData2: MultiDataSet = [[80, 50, 50]]
+
+  public doughnutChartLabels3: Label[] = ['GIT/GITHUB', 'Data Structure', 'RDBMS'];
+  public doughnutChartData3: MultiDataSet = [[80, 75, 60]]
   
 
   public doughnutChartType: ChartType = 'doughnut';
