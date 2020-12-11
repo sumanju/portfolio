@@ -7,7 +7,8 @@ import { FlexLayoutModule}        from '@angular/flex-layout'
 import { SectionTwoComponent }    from './section-two/section-two.component'
 import { FooterComponent }        from './footer/footer.component'
 import { SectionSkillComponent }  from './section-skill/section-skill.component'
-import { ChartsModule }           from 'ng2-charts'
+import { ChartsModule }           from 'ng2-charts';
+import { SectionProjectComponent } from './section-project/section-project.component'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ChartsModule }           from 'ng2-charts'
     SectionOneComponent,
     SectionTwoComponent,
     FooterComponent,
-    SectionSkillComponent
+    SectionSkillComponent,
+    SectionProjectComponent
   ],
   imports: [
     FlexLayoutModule,
