@@ -3,7 +3,7 @@
     color: #838383;
     margin: 0 auto;
     text-align: center;
-    margin: 12vh 0 5vh;
+    margin: 10vh 0 6vh;
     font-size: 50px;
   }
 
@@ -16,6 +16,10 @@
       font-size: 18px;
       line-height: 1.6;
       margin-bottom: 2vh;
+
+      .desc {
+        padding: 0 2%;
+      }
     }
   }
 }
@@ -37,8 +41,12 @@
       color: #838383;
       text-align: left;
       font-size: 12px;
-      line-height: 1.2;
+      line-height: 1.4;
       margin-bottom: 2vh;
+
+      .desc {
+        padding: 0% 3vw;
+      }
     }
   }
 }
