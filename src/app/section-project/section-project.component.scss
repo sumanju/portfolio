@@ -3,25 +3,60 @@
     color: #838383;
     margin: 0 auto;
     text-align: center;
-    margin: 10vh 0 6vh;
+    margin: 10vh 0;
     font-size: 50px;
   }
 
   .proj-cont  {
-    padding: 0 10%;
+    padding: 0 15%;
 
     .proj-txt {
       color: #838383;
       text-align: left;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 1.6;
-      margin-bottom: 2vh;
-
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      margin: 6vh 0;
+      
+      
       .desc {
         padding: 0 2%;
       }
     }
   }
+
+  .left-right {
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  .right-left {
+    animation-name: slideInRight;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  @keyframes slideInRight {
+    from  {
+      transform: translateX(100%);
+      visibility: visible;
+    }
+    to  {
+      transform: translateX(0%);
+    }
+  }
+
+  @keyframes slideInLeft {
+    from  {
+      transform: translateX(-100%);
+      visibility: visible;
+    }
+    to  {
+      transform: translateX(0%);
+    }
+  }
+
 }
 
 .mobile {
