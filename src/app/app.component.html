@@ -1,4 +1,5 @@
-<div  [ngClass]="'web'"  
+<div  id=view
+      [ngClass]="'web'"  
       [ngClass.xs]="'mobile'">
 
   <div class="section-one">
@@ -13,7 +14,7 @@
     <app-section-skill></app-section-skill>
   </div>
 
-  <div class="section-two">
+  <div class="section-two" *ngIf="isProject">
     <app-section-project></app-section-project>
   </div>
 
